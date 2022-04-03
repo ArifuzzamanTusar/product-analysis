@@ -1,9 +1,13 @@
 import React from 'react';
+import Herosection from '../../Templates/Sections/Herosection';
+import Homereview from '../../Templates/Sections/Homereview';
+
 
 const Home = () => {
     return (
-        <div>
-            <h1>Home</h1>
+        <div className='home-page'>
+           <Herosection></Herosection>
+           <Homereview></Homereview>
         </div>
     );
 };

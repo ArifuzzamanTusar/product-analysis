@@ -1,0 +1,16 @@
+:root{
+  --dark: #000000;
+  --blue: #539DFC;
+}
+.title_black{
+  color: var(--dark);
+}
+.title_blue{
+  color: var(--blue);
+}
+
+.divider{
+  height: 5px;
+  width: 10%;
+  background: var(--blue);
+}

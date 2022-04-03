@@ -1,0 +1,27 @@
+.review_widget{
+    transition: 0.5s;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background-image: url("https://res.cloudinary.com/tusar/image/upload/v1649022130/random-projects/quote_sazsw0.png");
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: right;
+    background-size: 60px;
+}
+.review_widget:hover{
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
+}
+.review_widget_inner{
+    padding: 15px;
+}
+.review_widget_inner .avater{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 100px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-right: 20px;
+}
+.review_widget .review-text{
+    font-style: italic;
+}
