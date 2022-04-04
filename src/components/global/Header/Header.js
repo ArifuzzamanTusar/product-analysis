@@ -1,13 +1,15 @@
 import React from 'react';
 import './Header.css'
 import { Container, Image, Nav, Navbar } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 const Header = () => {
+    const navigate = useNavigate();
+    const goRoot = () =>{navigate(`/`)}
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="/"> <Image width={200} src='/assets/logo.png'></Image> </Navbar.Brand>
+                <Navbar.Brand onClick={goRoot} > <Image width={200} src='/assets/logo.png'></Image> </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse className='justify-content-end' id="responsive-navbar-nav">
                     <Nav>

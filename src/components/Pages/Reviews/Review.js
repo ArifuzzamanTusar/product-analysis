@@ -8,7 +8,7 @@ const Review = () => {
     const [review] = useReview();
 
     return (
-        <div className='homeReview '>
+        <div className='review-page single-page'>
 
             <Pagetitle title="Top Reviews" disc="What people says about Playstation VR" ></Pagetitle>
             <Container>            

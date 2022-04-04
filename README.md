@@ -2,16 +2,16 @@
 This is basically a react app for presenting a products features, reviews and customers feedback.
 
 Live Website link 
-- Netlify
+- [Netlify](https://atusar-psvr.netlify.app/)
 
 ## Fearures in this app
- Some of the key features are ---
+ Some of the key features are,
 
-* Customer Review
-* Dashboard having charts
-* Blog page
-* Homepage with product short overview 
-* Homepage with showing minimum Reviews
+* Customer Review.
+* Dashboard having charts.
+* Blog page.
+* Homepage with product short overview.
+* Homepage with showing minimum Reviews.
 
 
 

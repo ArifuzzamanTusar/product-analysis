@@ -9,7 +9,7 @@ import InvestmentRevenurPie from '../../Templates/Charts/InvestmentRevenurPie';
 
 const Dashboard = () => {
     return (
-        <div className="dashboard">
+        <div className="dashboard-page single-page">
             <Pagetitle title = "Company Analytics"  disc ="Monthly analytics of our companies Revenue, Investements and sales" ></Pagetitle>
             <Container>
                 <Row>
