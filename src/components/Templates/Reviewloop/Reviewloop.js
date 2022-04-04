@@ -3,7 +3,7 @@ import './Reviewloop.css'
 import { Col, Image } from 'react-bootstrap';
 
 const Reviewloop = (props) => {
-    const { rating, name, image, review } = props.data;
+    const { rating, name, image, review, designation } = props.data;
     return (
         <Col md={4} >
             <div className="review_widget my-3">
@@ -12,7 +12,7 @@ const Reviewloop = (props) => {
                         <Image className='avater' src={image}></Image>
                         <div className="name_review">
                             <h4 className='author'> {name}</h4>
-                            <div className="deg">CEO, Microsoft</div>
+                            <div className="deg">{designation}</div>
                         </div>
 
                     </div>
