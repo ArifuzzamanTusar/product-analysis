@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Image, Row } from 'react-bootstrap';
+import { Button, Col, Container, Image, Row } from 'react-bootstrap';
 const Herosection = () => {
     return (
         <Container>
@@ -9,7 +9,9 @@ const Herosection = () => {
                         <div className="mainContainer ">
                             <h1 className='title_black text-uppercase font-weight-bold'>PlayStation VR</h1>
                             <h1 className='title_blue text-uppercase font-weight-bold'>Live the game</h1>
-                            <p>Put yourself at the center of an extraordinary gaming universe powered by the PS VR headset and your PlayStation® console.</p>
+                            <p className='py-3'>Put yourself at the center of an extraordinary gaming universe powered by the PS VR headset and your PlayStation® console.</p>
+
+                            <Button className='my-2' variant='outline-primary'>Get Your Ultimate Beast</Button>
                         </div>
                     </div>
 

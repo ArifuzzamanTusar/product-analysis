@@ -1,12 +1,12 @@
 import React from 'react';
-import { Area, AreaChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
+import { Area, AreaChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from 'recharts';
 import useChartdata from '../../../Hooks/useChartdata';
 
 const InvestmentRevenueArea = () => {
     const [chartdata] = useChartdata();
     return (
         <div className="chart_area">
-            
+             <div className="py-3 text-center"><h5>Month-wise investment, Revenue</h5></div>
             <AreaChart width={600} height={500} data={chartdata}
                 margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                 <defs>
@@ -25,6 +25,7 @@ const InvestmentRevenueArea = () => {
                 <Tooltip />
                 <Area type="monotone" dataKey="investment" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
                 <Area type="monotone" dataKey="revenue" stroke="#82ca9d" fillOpacity={1} fill="url(#colorPv)" />
+                <Legend />
             </AreaChart>
         </div>
     );

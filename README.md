@@ -1,7 +1,17 @@
 # Playstation Product analysis
+This is basically a react app for presenting a products features, reviews and customers feedback.
 
+Live Website link 
+- Netlify
 
+## Fearures in this app
+ Some of the key features are ---
 
+* Customer Review
+* Dashboard having charts
+* Blog page
+* Homepage with product short overview 
+* Homepage with showing minimum Reviews
 
 
 
