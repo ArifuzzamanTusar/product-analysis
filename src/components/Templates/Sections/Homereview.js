@@ -3,6 +3,7 @@ import React from 'react';
 import { Button, Container, Row } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import useReview from '../../../Hooks/useReview';
+import Pagetitle from '../../global/Title/Pagetitle';
 import Reviewloop from '../Reviewloop/Reviewloop';
 
 const Homereview = () => {
@@ -13,14 +14,9 @@ const Homereview = () => {
 
     return (
         <div className='homeReview py-5'>
+             <Pagetitle title="Top Reviews" disc="What people says about Playstation VR" ></Pagetitle>
             <Container>
-                <div className="section_title">
-                    <h3 className='title_black text-uppercase font-weight-bold text-center'> Top Reviews</h3>
-                    <p className='text-center'>What people says about Playstation VR</p>
-                    <div className="d-flex justify-content-center">
-                        <div className="divider"></div>
-                    </div>
-                </div>
+               
                 <div className="py-5 ">
                     <Row>
                         {
