@@ -19,7 +19,7 @@ const Reviewloop = (props) => {
                     <p className="review-text py-3">
                         "{review}"
                     </p>
-                    <div className="rating">Rating: {rating}</div>
+                    <div className="rating">Rating: {rating} out of 5</div>
                 </div>
             </div>
 
