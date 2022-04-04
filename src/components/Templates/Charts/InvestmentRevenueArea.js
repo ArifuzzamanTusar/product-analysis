@@ -7,7 +7,7 @@ const InvestmentRevenueArea = () => {
     return (
         <div className="chart_area">
              <div className="py-3 text-center"><h5>Month-wise investment, Revenue</h5></div>
-            <AreaChart width={600} height={500} data={chartdata}
+            <AreaChart width={500} height={400} data={chartdata}
                 margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                 <defs>
                     <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">

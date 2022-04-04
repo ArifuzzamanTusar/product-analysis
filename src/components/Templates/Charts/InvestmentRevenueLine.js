@@ -9,7 +9,7 @@ const InvestmentRevenueLine = () => {
         <div className="chart_area">
                 <div className="py-3 text-center"><h5>Month-wise Sale</h5></div>
 
-                <LineChart width={600} height={500} data={chartdata}
+                <LineChart width={500} height={400} data={chartdata}
                     margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" />

@@ -9,7 +9,7 @@ const InvestmentRevenueBar = () => {
     return (
         <div className='chart_area'>
             <div className="py-3 text-center"><h5>Month-wise investment, Revenue</h5></div>
-            <BarChart height={500} width={600} data={chartdata}>
+            <BarChart height={500} width={400} data={chartdata}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey={'month'}></XAxis>
                 <YAxis></YAxis>
